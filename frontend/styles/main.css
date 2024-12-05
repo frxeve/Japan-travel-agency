@@ -1,0 +1,776 @@
+body {
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  color: #3185d6;
+}
+
+.navbar-brand img {
+  max-height: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #3185d6;
+}
+.navbar-light .navbar-nav .nav-link.active {
+  font-weight: bold;
+  color: #3185d6 !important;
+}
+
+.btn-login {
+  background-color: #3185d6;
+  color: #fff;
+}
+.btn-login:hover {
+  background-color: #66a0d8;
+  color: #fff;
+}
+
+header {
+  padding: 200px 0px 97px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+}
+header h1,
+header p {
+  color: #fff;
+  font-size: 50px;
+}
+header h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+header p {
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+}
+header .btn-get-started {
+  background-color: #3185d6;
+  color: #fff;
+  font-family: "Lato", sans-serif;
+}
+header .btn-get-started:hover {
+  background-color: #66a0d8;
+  color: #fff;
+}
+
+.section-stats {
+  margin-top: 20px;
+}
+.section-stats .stats-detail {
+  margin: 13px;
+}
+.section-stats .stats-detail h4 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-bottom: 0px;
+}
+.section-stats .stats-detail p {
+  font-size: 15px;
+  font-weight: normal;
+  font-family: "Lato", sans-serif;
+  margin-top: 5px;
+  text-align: center;
+}
+.section-stats img {
+  max-width: 35px;
+  max-height: 35px;
+}
+
+.section-welcome {
+  background-color: #66a0d8;
+}
+.section-welcome .section-welcome-heading {
+  margin-top: 20px;
+}
+.section-welcome .section-welcome-heading h2,
+.section-welcome .section-welcome-heading p {
+  color: #fff;
+}
+.section-welcome .section-welcome-heading h2 {
+  font-size: 36px;
+  font-weight: medium;
+  font-family: "Raleway", sans-serif;
+}
+.section-welcome .section-welcome-heading p {
+  text-align: justify;
+  font-family: "Lato", sans-serif;
+}
+.section-welcome .section-welcome-heading-right {
+  margin-top: 30px;
+}
+.section-welcome .section-welcome-heading-right .card-body {
+  display: flex;
+  justify-content: space-between;
+}
+.section-welcome .section-welcome-heading-right .card-body .col {
+  text-align: center;
+}
+.section-welcome .section-welcome-heading-right .card-body .col h5 {
+  font-size: 20px;
+  font-weight: medium;
+  font-family: "Raleway", sans-serif;
+  color: #3185d6;
+}
+.section-welcome .section-welcome-heading-right .card-body .col p {
+  font-family: "Lato", sans-serif;
+  color: #3185d6;
+}
+
+.section-popular {
+  margin-top: 30px;
+}
+.section-popular h2 {
+  font-weight: medium;
+}
+.section-popular .card {
+  border: 8px;
+  background-color: #66a0d8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Lato", sans-serif;
+}
+.section-popular .card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.section-popular .card .card-text {
+  font-size: 16px;
+  color: #fff;
+}
+.section-popular .card .card-text .bold-text {
+  font-weight: bold;
+}
+.section-popular .card .card-img-top {
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+  display: block; /* Memastikan gambar berada di tengah */
+}
+.section-popular .card .btn {
+  color: #3185d6;
+  font-weight: bold;
+}
+
+.section-footer {
+  background-color: #66a0d8;
+  padding-top: 0rem; /* Sesuaikan dengan tinggi space yang diinginkan di bagian atas */
+}
+.section-footer h5,
+.section-footer a,
+.section-footer p {
+  color: #fff; /* Warna teks menjadi putih */
+  text-decoration: none; /* Menghapus garis bawah pada tautan */
+  margin-bottom: 1rem; /* Menambahkan sedikit ruang antara elemen-elemen */
+  margin-top: 1rem;
+}
+.section-footer img {
+  max-width: 100%; /* Untuk memastikan gambar tidak melebihi lebar kontainer */
+}
+.section-footer .social-media {
+  display: flex;
+  gap: 1rem; /* Menambahkan sedikit ruang antara ikon media sosial */
+}
+
+.container-fluid {
+  padding: 0; /* Menghilangkan padding pada container fluid */
+}
+
+.footer-last {
+  margin-top: -2rem; /* Menyesuaikan margin atas agar tidak ada space di bawah footer */
+}
+
+.section-details-content {
+  min-height: 100vh;
+}
+.section-details-content .breadcrumb {
+  padding-top: 20px;
+}
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-details-content .card-details {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-content .card-details h1 {
+  font-size: 25px;
+  color: #175b9b;
+  font-weight: bold;
+}
+.section-details-content .card-details h2 {
+  font-size: 20px;
+  color: #175b9b;
+  font-weight: bold;
+  margin-top: 3%;
+}
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #175b9b;
+  text-align: justify;
+}
+.section-details-content .card-details td {
+  font-size: 18px;
+  color: #175b9b;
+}
+.section-details-content .card-details .features {
+  margin-top: 20px;
+}
+.section-details-content .card-details .features h3 {
+  font-size: 18px;
+  color: #175b9b;
+  margin-bottom: 0px;
+}
+.section-details-content .card-details .features p {
+  margin-bottom: 0px;
+}
+.section-details-content .card-details .features .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+}
+.section-details-content .card-details .features .features-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .card-details .form-inline {
+  color: #175b9b;
+  padding: 30px;
+}
+.section-details-content .card-details .form-inline h3 {
+  font-size: 20px;
+  color: #175b9b;
+  font-weight: bold;
+}
+.section-details-content .card-details .form-inline p {
+  font-size: 18px;
+  color: #175b9b;
+}
+.section-details-content .card-details .form-inline .form-control {
+  font-size: 20px;
+  color: #175b9b;
+  margin-bottom: 10%;
+  margin-top: 3%;
+  border-top-right-radius: 8;
+  border-bottom-right-radius: 8;
+}
+.section-details-content .card-details .form-inline .btn-add-people {
+  background-color: #3185d6;
+  border-radius: 8px;
+  color: #fff;
+}
+.section-details-content .card-details .form-inline .btn-add-people:hover {
+  background-color: #66a0d8;
+  color: #fff;
+}
+.section-details-content .card-details .form-inline .custom-select {
+  font-size: 20px;
+  color: #175b9b;
+  margin-top: 3%;
+}
+.section-details-content .card-details .payment-instructions {
+  font-weight: 300;
+  font-size: 14px;
+  color: #b1b1b1;
+}
+.section-details-content .card-details .bank .bank-item h3 {
+  font-size: 18px;
+  color: #175b9b;
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.section-details-content .card-details .bank .bank-item p {
+  margin-bottom: 0;
+  font-weight: 300;
+}
+.section-details-content .card-details .bank .bank-item .description {
+  margin-left: 10px;
+  overflow: hidden;
+  float: left;
+  font-family: "Lato", sans-serif;
+}
+.section-details-content .card-details .bank .bank-item .description p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #175b9b;
+}
+.section-details-content .card-details .bank .bank-image {
+  width: 45px;
+  height: 45px;
+  float: left;
+}
+.section-details-content .card-details .trip-information {
+  color: #175b9b;
+  margin-top: 10px;
+}
+.section-details-content .card-details .trip-information td {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  padding: 5px;
+}
+.section-details-content .card-details .trip-information .text-blue {
+  color: #175b9b;
+  font-weight: bold;
+}
+.section-details-content .card-details .trip-information .text-orange {
+  color: #ea801e;
+  font-weight: bold;
+}
+.section-details-content .card-details .disclaimer {
+  font-weight: 300;
+  font-size: 18px;
+}
+.section-details-content .card-details .gj-datepicker .input-group-append .btn {
+  padding-right: 30px;
+  border: 0;
+}
+.section-details-content .card-details .gj-datepicker .input-group-append .btn .gj-icon {
+  padding-top: 3px;
+  margin: 5px;
+  color: #175b9b;
+  font-size: 32px;
+}
+.section-details-content .card-details .join-container {
+  margin-top: 10px;
+}
+.section-details-content .card-details .btn-join-now {
+  background-color: #3185d6;
+  border-radius: 8px;
+  color: #fff;
+}
+.section-details-content .card-details .btn-join-now:hover {
+  background-color: #66a0d8;
+  color: #fff;
+}
+.section-details-content .card-details .btn-success {
+  background-color: #10ad36;
+  border-radius: 8px;
+  color: #fff;
+  width: 116px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+.section-details-content .gallery .xzoom-container {
+  display: block;
+}
+.section-details-content .gallery .xzoom-container .xzoom {
+  margin-bottom: 10px;
+  width: auto;
+  box-shadow: none;
+}
+.section-details-content .gallery .xzoom-container .xactive {
+  border: 4px solid #3185d6;
+  box-shadow: none;
+}
+.section-details-content h3 {
+  font-weight: 100;
+  font-size: 14px;
+  text-align: left;
+  color: #175b9b;
+}
+
+.section-success {
+  height: 90vh;
+}
+.section-success h1 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #175b9b;
+  margin-top: 10px;
+}
+.section-success p {
+  font-weight: 300;
+  font-size: 18px;
+  color: #175b9b;
+}
+.section-success .btn-home-page {
+  border-radius: 4px;
+  background-color: #fff;
+  color: #3185d6;
+}
+.section-success .btn-home-page:hover {
+  background-color: #3185d6;
+  color: #fff;
+}
+
+.section-popular-destination {
+  min-height: 100vh;
+}
+.section-popular-destination .breadcrumb {
+  padding-top: 20px;
+}
+.section-popular-destination .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-popular-destination .card {
+  width: 352px;
+  height: 460px;
+  border: 8px;
+  background-color: #66a0d8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.section-popular-destination .card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.section-popular-destination .card .card-text {
+  font-size: 16px;
+  color: #fff;
+}
+.section-popular-destination .card .card-text .bold-text {
+  font-weight: bold;
+}
+.section-popular-destination .card .card-img-top {
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+  display: block; /* Memastikan gambar berada di tengah */
+}
+.section-popular-destination .card .btn {
+  color: #3185d6;
+  font-weight: bold;
+  position: absolute;
+  top: 408px; /* Sesuaikan dengan jarak dari atas yang diinginkan */
+  left: 76%;
+}
+.section-popular-destination .pagination-container {
+  display: flex;
+  justify-content: center;
+  color: #3185d6; /* Warna latar belakang */
+  padding: 10px;
+}
+.section-popular-destination .pagination-container .pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.section-popular-destination .pagination-container .pagination li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.section-contact {
+  min-height: 100vh;
+}
+.section-contact .breadcrumb {
+  padding-top: 20px;
+}
+.section-contact .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-contact .card-contact {
+  width: 350px;
+  height: 420px;
+  border: 1px solid #e4e6e8;
+  background-color: #fff;
+  padding-top: 30px;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.section-contact .card-contact .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3185d6;
+  padding-top: 10px;
+}
+.section-contact .card-contact .card-text {
+  font-size: 16px;
+  color: #3185d6;
+  padding-top: 8px;
+}
+.section-contact .card-contact .card-text .bold-text {
+  font-weight: bold;
+}
+.section-contact .card-contact .card-img-contact {
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+  display: block; /* Memastikan gambar berada di tengah */
+  width: 189px;
+  height: 171px;
+}
+
+.section-details-about {
+  min-height: 100vh;
+}
+.section-details-about .breadcrumb {
+  padding-top: 20px;
+}
+.section-details-about .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-details-about .about {
+  padding: 30px;
+  border-radius: 11px;
+}
+.section-details-about .about h2 {
+  font-size: 30px;
+  color: #3185d6;
+  font-weight: bold;
+  margin-top: 1%;
+}
+.section-details-about .about p {
+  font-size: 18px;
+  color: #175b9b;
+  text-align: justify;
+}
+.section-details-about .right-content {
+  padding: 30px;
+  border-radius: 18px;
+  height: 638px;
+  width: 444px;
+}
+
+.section-my-order2 {
+  min-height: 100vh;
+}
+.section-my-order2 .breadcrumb {
+  padding-top: 20px;
+}
+.section-my-order2 .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-my-order2 .order-stats {
+  /* Tambahkan gaya untuk tab yang dipilih */
+}
+.section-my-order2 .order-stats .tab-col.active {
+  color: #3185d6; /* Warna teks */
+  font-weight: bold; /* Teks menjadi bold */
+  border-bottom: 2px solid #3185d6; /* Garis bawah dengan warna yang sama */
+}
+.section-my-order2 .order-stats td {
+  color: #3185d6;
+}
+.section-my-order2 .img-order {
+  width: 411px;
+  height: 280px;
+  border-radius: 4px;
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 34px 0 36px 28px; /* Atas, Kanan, Bawah, Kiri */
+}
+.section-my-order2 .card-body {
+  margin-top: 20px;
+}
+.section-my-order2 .card-body h5 {
+  color: #3185d6;
+  font-weight: bold;
+  font-size: 24px;
+}
+.section-my-order2 .card-body p {
+  color: #175b9b;
+  font-size: 18px;
+}
+
+.section-blogs {
+  min-height: 100vh;
+}
+.section-blogs h2 {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 32px;
+}
+.section-blogs .breadcrumb {
+  padding-top: 20px;
+}
+.section-blogs .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-blogs .card {
+  width: 352px;
+  height: 460px;
+  border: 8px;
+  background-color: #66a0d8;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  margin-top: 25px;
+}
+.section-blogs .card .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+.section-blogs .card .card-text {
+  font-size: 16px;
+  color: #fff;
+}
+.section-blogs .card .card-text .bold-text {
+  font-weight: bold;
+}
+.section-blogs .card .card-img-top {
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+  display: block; /* Memastikan gambar berada di tengah */
+}
+.section-blogs .pagination-container {
+  display: flex;
+  justify-content: center;
+  color: #3185d6; /* Warna latar belakang */
+  padding: 10px;
+}
+.section-blogs .pagination-container .pagination {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.section-blogs .pagination-container .pagination li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.section-detail-blogs {
+  min-height: 100vh;
+}
+.section-detail-blogs .row.justify-content-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section-detail-blogs .article-post {
+  width: 18%;
+}
+.section-detail-blogs .blog-article .img-blog {
+  width: 458px;
+  height: 316px;
+}
+.section-detail-blogs .blog-article .img-blog-cover {
+  width: 458px;
+  height: 424px;
+  margin-top: 50px;
+}
+.section-detail-blogs .blog-article p {
+  color: #175b9b;
+  font-size: 18px;
+  text-align: justify;
+  margin-left: 0px;
+}
+.section-detail-blogs .blog-article h2 {
+  color: #175b9b;
+  font-size: 24px;
+  margin-left: 0px;
+}
+.section-detail-blogs h2 {
+  margin-left: -130px;
+  font-weight: bold;
+  font-size: 32px;
+  margin-top: 15px;
+}
+.section-detail-blogs p {
+  margin-top: 30px;
+}
+.section-detail-blogs .breadcrumb {
+  padding-top: 20px;
+}
+.section-detail-blogs .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+
+.section-wishlist {
+  min-height: 100vh;
+}
+.section-wishlist h2 {
+  font-weight: bold;
+  font-size: 36px;
+}
+.section-wishlist .text-collection {
+  font-weight: bold;
+}
+.section-wishlist .breadcrumb {
+  padding-top: 20px;
+}
+.section-wishlist .breadcrumb-item.active {
+  font-weight: bold;
+  color: #3185d6;
+}
+.section-wishlist .card-wishlist {
+  width: 350px;
+  height: 300px;
+  background-color: #fff;
+  padding-top: 0px;
+  box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.section-wishlist .card-wishlist .card-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #3185d6;
+  padding-top: 10px;
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 0;
+}
+.section-wishlist .card-wishlist .card-text {
+  font-size: 16px;
+  color: #3185d6;
+  padding-top: 8px;
+}
+.section-wishlist .card-wishlist .card-text .bold-text {
+  font-weight: bold;
+}
+.section-wishlist .card-wishlist .card-img-contact {
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+  display: block; /* Memastikan gambar berada di tengah */
+  width: 189px;
+  height: 171px;
+}
+.section-wishlist .card-savelist {
+  width: 1086px;
+  height: 350px;
+  background-color: #fff;
+  padding-top: 0px;
+  box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.25);
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  margin-top: 25px;
+}
+.section-wishlist .card-savelist .bookmark {
+  margin-right: 10px;
+}
+.section-wishlist .card-savelist .img-save {
+  width: 411px;
+  height: 280px;
+  border-radius: 4px;
+  max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+  margin: 34px 0 36px 28px; /* Atas, Kanan, Bawah, Kiri */
+}
+.section-wishlist .card-savelist .card-body {
+  margin-top: 20px;
+}
+.section-wishlist .card-savelist .card-body h5 {
+  color: #3185d6;
+  font-weight: bold;
+  font-size: 24px;
+}
+.section-wishlist .card-savelist .card-body p {
+  color: #3185d6;
+  font-size: 18px;
+  font-weight: 500;
+}
+.section-wishlist .card-savelist .card-body .location-container {
+  display: flex;
+  align-items: center;
+}
+.section-wishlist .card-savelist .card-body .location-order {
+  margin-right: 10px;
+}
+.section-wishlist .card-savelist .card-body .location-image {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto;
+  margin-right: 10px;
+}/*# sourceMappingURL=main.css.map */

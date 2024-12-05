@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eve Travel</title>
+
+  <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css" />
+  <link rel="stylesheet" href="frontend/libraries/xzoom/xzoom.css">
+  <link rel="stylesheet" href="frontend/libraries/gijgo/css/gijgo.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:wght@300;400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="frontend/styles/main.css" />
+
+</head>
+
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light shadow-sm">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="frontend/images/logo.png" alt="" />
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navb">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navb">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Destination</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="blogs.html">Our Blogs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#wishlist">My Wishlist</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="myorder.html">My Orders</a>
+          </li>
+        </ul>
+
+        <!-- mobile button -->
+        <form class="form-inline d-sm block d-md-none">
+          <button class="btn btn-login my-2 my-sm-0">Logout</button>
+        </form>
+        <!-- desktop button -->
+        <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+          <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">Logout</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- header -->
+  <header">
+    <img src="frontend/images/header-page.png" style="background-size: cover; width:1300px ;height: 100px;">
+  </header>
+
+    <!-- main -->
+    <main>
+      <div class="section-my-order2">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    Eve Travel
+                  </li>
+                 
+                  <li class="breadcrumb-item active">
+                    My Orders
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-12 pl-lg-0">
+               <hr>
+                <div class="order-stats">
+                  <table class="table table-responsive-sm text-center">
+                    <thead>
+                      <tr>
+                        <td class="tab-col active"> 1) In Progress</td>
+                        <td class="tab-col">2) Waiting For Payment</td>
+                        <td class="tab-col">3) Completed Order</td>
+                      </tr>
+                    </thead>
+                  </table>
+                </div>
+            </div>
+
+            <a class="text-decoration-none" href="detailorder.html">
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="frontend/images/order-1.png" class="img-order img-fluid " alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Tokyo Disneyland</h5>
+                      <p class="code-order">TN123456789</p>
+                      <p class="loction-order " >Sagatenryuji Susukinobabacho, Ukyo Ward, Kyoto</p>
+                      <p class="date-order">19 Jan - 29 Jan 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a class="text-decoration-none" href="detailorder.html">
+              <div class="card mb-3" >
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="frontend/images/order-2.png" class="img-order img-fluid " alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Tokyo Disneyland</h5>
+                      <p class="code-order">TN123456789</p>
+                      <p class="loction-order " >Sagatenryuji Susukinobabacho, Ukyo Ward, Kyoto</p>
+                      <p class="date-order">19 Jan - 29 Jan 2023</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+
+           
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer class="section-footer mt-5 mb-0">
+      <div class="container pt-5 pb-5">
+        <div class="row justify-content-around">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-lg-9 ps-lg-5">
+                <h5 style="font-weight: bold">About</h5>
+                <ul class="list-unstyled">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="destination.html">Destination</a></li>
+                  <li><a href="#blog">Our Blogs</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+              </div>
+
+              <div class="col-lg-3">
+                <img src="frontend/images/footer.png" alt="" />
+                <p>Jl. Salemba Raya No.53, Kota Jakarta Pusat, DKI Jakarta 10440</p>
+
+                <a href="mailto:febriana.gunadarma@gmail.com">febriana.gunadarma@gmail.com</a>
+
+                <div class="row">
+                  <div class="social-media">
+                    <a href="https://www.linkedin.com/in/febrianaa/" class="btn btn-contact">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 
+                        512">
+                        <path fill="#ffffff"
+                          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 
+                        480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 
+                        96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                      </svg>
+                    </a>
+                    <a href="https://www.instagram.com/febrianaa27_/" class="btn btn-contact">
+                      <svg xmlns="http://www.w3.org/2000/svg" height="32" width="28" viewBox="0 0 448 512">
+                        <path fill="#ffffff"
+                          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                      </svg>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid">
+        <div class="row justify-content-center align-item-center pt-4">
+          <div class="col-auto text-white font-weight-light footer-last">©2023 Copyright Eve Travel</div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="frontend/libraries/jquery/jquery-3.4.1.min.js"></script>
+    <script src="frontend/libraries/bootstrap/js/bootstrap.js"></script>
+    <script src="frontend/libraries/retina/retina.min.js"></script>
+    <script src="frontend/libraries/xzoom/xzoom.min.js"></script>
+    <script src="frontend/libraries/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $('.xzoom, .xzoom-gallery').xzoom({
+          zoomWidth: 500,
+          title: false,
+          tint: '#333',
+          Xoffset: 15
+        });
+
+        $('.datepicker').datepicker({
+          uiLibrary: 'bootstrap4',
+          // icons : {
+          //   rightIcon: '<img src="frontend/images/ic_doe.png">'
+          // }
+        })
+      });
+    </script>
+    <!--retina utk mempertajam logo-->
+
+    <script>
+      // Script untuk menangani perpindahan tab saat diklik
+    $('.tab-col').on('click', function () {
+    // Hilangkan class 'active' dari semua tab
+    $('.tab-col').removeClass('active');
+
+    // Tambahkan class 'active' ke tab yang diklik
+    $(this).addClass('active');
+
+    // Ambil data-tab dari tab yang diklik
+    var tabId = $(this).data('tab');
+
+    // Sembunyikan semua tab-content
+    $('.tab-content').hide();
+
+    // Tampilkan tab-content yang sesuai dengan data-tab yang diambil
+    $('#' + tabId).show();
+  });
+    </script>
+    
+
+</body>
+
+</html>

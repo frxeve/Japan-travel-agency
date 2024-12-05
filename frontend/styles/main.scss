@@ -1,0 +1,926 @@
+body {
+  background-color: #fff;
+  font-family: "Raleway", sans-serif;
+  color: #3185d6;
+}
+
+// navbar
+.navbar-brand {
+  img {
+    max-height: 50px;
+  }
+}
+.navbar-light {
+  .navbar-nav {
+    .nav-link {
+      color: #3185d6;
+
+      &.active {
+        font-weight: bold;
+        color: #3185d6 !important;
+      }
+    }
+  }
+}
+
+.btn-login {
+  background-color: #3185d6;
+  color: #fff;
+
+  &:hover {
+    background-color: #66a0d8;
+    color: #fff;
+  }
+}
+
+// header
+header {
+  padding: 200px 0px 97px;
+  background-image: url("../images/header.jpg");
+  background-size: cover;
+
+  h1,
+  p {
+    color: #fff;
+    font-size: 50px;
+  }
+  h1 {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-size: 22px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .btn-get-started {
+    background-color: #3185d6;
+    color: #fff;
+    font-family: "Lato", sans-serif;
+
+    &:hover {
+      background-color: #66a0d8;
+      color: #fff;
+    }
+  }
+}
+
+//statistic
+.section-stats {
+  margin-top: 20px;
+
+  .stats-detail {
+    margin: 13px;
+    h4 {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 10px;
+      margin-bottom: 0px;
+    }
+    p {
+      font-size: 15px;
+      font-weight: normal;
+      font-family: "Lato", sans-serif;
+      margin-top: 5px;
+      text-align: center;
+    }
+  }
+  img {
+    max-width: 35px;
+    max-height: 35px;
+    // justify-content: center;
+    // align-items: center;
+  }
+}
+
+//welcome
+.section-welcome {
+  background-color: #66a0d8;
+  .section-welcome-heading {
+    margin-top: 20px;
+    h2,
+    p {
+      color: #fff;
+    }
+    h2 {
+      font-size: 36px;
+      font-weight: medium;
+      font-family: "Raleway", sans-serif;
+    }
+    p {
+      text-align: justify;
+      font-family: "Lato", sans-serif;
+    }
+  }
+
+  .section-welcome-heading-right {
+    .card-body {
+      display: flex;
+      justify-content: space-between;
+
+      .col {
+        text-align: center;
+        h5 {
+          font-size: 20px;
+          font-weight: medium;
+          font-family: "Raleway", sans-serif;
+          color: #3185d6;
+        }
+        p {
+          font-family: "Lato", sans-serif;
+          color: #3185d6;
+        }
+      }
+    }
+    margin-top: 30px;
+  }
+}
+
+// popular
+.section-popular {
+  margin-top: 30px;
+  h2 {
+    font-weight: medium;
+  }
+  .card {
+    border: 8px;
+    background-color: #66a0d8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Lato", sans-serif;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .card-text {
+      font-size: 16px;
+      color: #fff;
+
+      .bold-text {
+        font-weight: bold;
+      }
+    }
+
+    .card-img-top {
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+      display: block; /* Memastikan gambar berada di tengah */
+    }
+    .btn {
+      color: #3185d6;
+      font-weight: bold;
+    }
+  }
+}
+
+// footer
+.section-footer {
+  background-color: #66a0d8;
+  padding-top: 0rem; /* Sesuaikan dengan tinggi space yang diinginkan di bagian atas */
+
+  h5,
+  a,
+  p {
+    color: #fff; /* Warna teks menjadi putih */
+    text-decoration: none; /* Menghapus garis bawah pada tautan */
+    margin-bottom: 1rem; /* Menambahkan sedikit ruang antara elemen-elemen */
+    margin-top: 1rem;
+  }
+
+  img {
+    max-width: 100%; /* Untuk memastikan gambar tidak melebihi lebar kontainer */
+  }
+
+  .social-media {
+    display: flex;
+    gap: 1rem; /* Menambahkan sedikit ruang antara ikon media sosial */
+  }
+}
+
+.container-fluid {
+  padding: 0; /* Menghilangkan padding pada container fluid */
+}
+
+.footer-last {
+  margin-top: -2rem; /* Menyesuaikan margin atas agar tidak ada space di bawah footer */
+}
+
+//content
+.section-details-content {
+  min-height: 100vh;
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+
+  .card-details {
+    padding: 30px;
+    border-radius: 11px;
+
+    h1 {
+      font-size: 25px;
+      color: #175b9b;
+      font-weight: bold;
+    }
+    h2 {
+      font-size: 20px;
+      color: #175b9b;
+      font-weight: bold;
+      margin-top: 3%;
+    }
+    p {
+      font-size: 18px;
+      color: #175b9b;
+      text-align: justify;
+    }
+    td {
+      font-size: 18px;
+      color: #175b9b;
+    }
+
+    .features {
+      margin-top: 20px;
+      h3 {
+        font-size: 18px;
+        color: #175b9b;
+        margin-bottom: 0px;
+      }
+      p {
+        margin-bottom: 0px;
+      }
+      .description {
+        margin-left: 10px;
+
+        overflow: hidden;
+        float: left;
+      }
+      .features-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+    // add more people
+    .form-inline {
+      color: #175b9b;
+      padding: 30px;
+      h3 {
+        font-size: 20px;
+        color: #175b9b;
+        font-weight: bold;
+      }
+      p {
+        font-size: 18px;
+        color: #175b9b;
+      }
+
+      .form-control {
+        font-size: 20px;
+        color: #175b9b;
+        margin-bottom: 10%;
+        margin-top: 3%;
+        border-top-right-radius: 8;
+        border-bottom-right-radius: 8;
+      }
+
+      //button add people
+      .btn-add-people {
+        background-color: #3185d6;
+        border-radius: 8px;
+        color: #fff;
+
+        &:hover {
+          background-color: #66a0d8;
+          color: #fff;
+        }
+      }
+      // visa
+      .custom-select {
+        font-size: 20px;
+        color: #175b9b;
+        margin-top: 3%;
+      }
+    }
+
+    //checkout page
+    .payment-instructions {
+      font-weight: 300;
+      font-size: 14px;
+      color: #b1b1b1;
+    }
+
+    .bank {
+      .bank-item {
+        h3 {
+          font-size: 18px;
+          color: #175b9b;
+          margin-bottom: 0;
+          font-weight: 300;
+        }
+        p {
+          margin-bottom: 0;
+          font-weight: 300;
+        }
+        .description {
+          margin-left: 10px;
+          overflow: hidden;
+          float: left;
+          font-family: "Lato", sans-serif;
+
+          p {
+            font-weight: 300;
+            font-size: 16px;
+            color: #175b9b;
+          }
+        }
+      }
+
+      .bank-image {
+        width: 45px;
+        height: 45px;
+        float: left;
+      }
+    }
+
+    .trip-information {
+      color: #175b9b;
+      margin-top: 10px;
+
+      td {
+        font-family: "Lato", sans-serif;
+        font-size: 18px;
+        padding: 5px;
+      }
+
+      .text-blue {
+        color: #175b9b;
+        font-weight: bold;
+      }
+      .text-orange {
+        color: #ea801e;
+        font-weight: bold;
+      }
+    }
+
+    .disclaimer {
+      font-weight: 300;
+      font-size: 18px;
+    }
+
+    .gj-datepicker {
+      .input-group-append {
+        .btn {
+          padding-right: 30px;
+          border: 0;
+
+          .gj-icon {
+            padding-top: 3px;
+            margin: 5px;
+            color: #175b9b;
+            font-size: 32px;
+          }
+        }
+      }
+    }
+
+    .join-container {
+      margin-top: 10px;
+    }
+
+    .btn-join-now {
+      background-color: #3185d6;
+      border-radius: 8px;
+      color: #fff;
+
+      &:hover {
+        background-color: #66a0d8;
+        color: #fff;
+      }
+    }
+
+    //detailorder
+    .btn-success {
+      background-color: #10ad36;
+      border-radius: 8px;
+      color: #fff;
+      width: 116px;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 9px;
+      margin-bottom: 9px;
+    }
+  }
+
+  .gallery {
+    .xzoom-container {
+      display: block;
+
+      .xzoom {
+        margin-bottom: 10px;
+        width: auto;
+        box-shadow: none;
+      }
+
+      .xactive {
+        border: 4px solid #3185d6;
+        box-shadow: none;
+      }
+    }
+  }
+
+  h3 {
+    font-weight: 100;
+    font-size: 14px;
+    text-align: left;
+    color: #175b9b;
+  }
+}
+
+.section-success {
+  height: 90vh;
+
+  h1 {
+    font-weight: 600;
+    font-size: 26px;
+    color: #175b9b;
+    margin-top: 10px;
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 18px;
+    color: #175b9b;
+  }
+
+  .btn-home-page {
+    border-radius: 4px;
+    background-color: #fff;
+    color: #3185d6;
+
+    &:hover {
+      background-color: #3185d6;
+      color: #fff;
+    }
+  }
+}
+
+//destination page
+.section-popular-destination {
+  min-height: 100vh;
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+
+  .card {
+    width: 352px;
+    height: 460px;
+    border: 8px;
+    background-color: #66a0d8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+    margin-top: 25px;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .card-text {
+      font-size: 16px;
+      color: #fff;
+
+      .bold-text {
+        font-weight: bold;
+      }
+    }
+
+    .card-img-top {
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+      display: block; /* Memastikan gambar berada di tengah */
+    }
+    .btn {
+      color: #3185d6;
+      font-weight: bold;
+      position: absolute;
+      top: 408px; /* Sesuaikan dengan jarak dari atas yang diinginkan */
+      left: 76%;
+    }
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    color: #3185d6; /* Warna latar belakang */
+    padding: 10px;
+
+    .pagination {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pagination li {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+}
+
+//contact us
+.section-contact {
+  min-height: 100vh;
+
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+  .card-contact {
+    width: 350px;
+    height: 420px;
+    border: 1px solid #e4e6e8;
+    background-color: #fff;
+    padding-top: 30px;
+
+    // box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+    margin-top: 25px;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3185d6;
+      padding-top: 10px;
+    }
+    .card-text {
+      font-size: 16px;
+      color: #3185d6;
+      padding-top: 8px;
+
+      .bold-text {
+        font-weight: bold;
+      }
+    }
+
+    .card-img-contact {
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+      display: block; /* Memastikan gambar berada di tengah */
+      width: 189px;
+      height: 171px;
+    }
+  }
+}
+
+//about us
+.section-details-about {
+  min-height: 100vh;
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+
+  .about {
+    padding: 30px;
+    border-radius: 11px;
+
+    h2 {
+      font-size: 30px;
+      color: #3185d6;
+      font-weight: bold;
+      margin-top: 1%;
+    }
+    p {
+      font-size: 18px;
+      color: #175b9b;
+      text-align: justify;
+    }
+  }
+
+  .right-content {
+    padding: 30px;
+    border-radius: 18px;
+    height: 638px;
+    width: 444px;
+  }
+}
+
+//my order
+.section-my-order2 {
+  min-height: 100vh;
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+
+  .order-stats {
+    /* Tambahkan gaya untuk tab yang dipilih */
+    .tab-col.active {
+      color: #3185d6; /* Warna teks */
+      font-weight: bold; /* Teks menjadi bold */
+      border-bottom: 2px solid #3185d6; /* Garis bawah dengan warna yang sama */
+    }
+
+    td {
+      color: #3185d6;
+    }
+  }
+
+  .img-order {
+    width: 411px;
+    height: 280px;
+    border-radius: 4px;
+    max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+    margin: 34px 0 36px 28px; /* Atas, Kanan, Bawah, Kiri */
+  }
+
+  .card-body {
+    margin-top: 20px;
+    h5 {
+      color: #3185d6;
+      font-weight: bold;
+      font-size: 24px;
+    }
+    p {
+      color: #175b9b;
+      font-size: 18px;
+    }
+  }
+}
+
+//blog
+.section-blogs {
+  min-height: 100vh;
+  h2 {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+
+  .card {
+    width: 352px;
+    height: 460px;
+    border: 8px;
+    background-color: #66a0d8;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+    overflow: hidden;
+    margin-top: 25px;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #fff;
+    }
+    .card-text {
+      font-size: 16px;
+      color: #fff;
+
+      .bold-text {
+        font-weight: bold;
+      }
+    }
+
+    .card-img-top {
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+      display: block; /* Memastikan gambar berada di tengah */
+    }
+  }
+
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    color: #3185d6; /* Warna latar belakang */
+    padding: 10px;
+
+    .pagination {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .pagination li {
+      display: inline;
+      margin-right: 10px;
+    }
+  }
+}
+
+//detail blog
+.section-detail-blogs {
+  min-height: 100vh;
+
+  .row.justify-content-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .article-post {
+    width: 18%;
+  }
+
+  .blog-article {
+    .img-blog {
+      width: 458px;
+      height: 316px;
+    }
+
+    .img-blog-cover {
+      width: 458px;
+      height: 424px;
+      margin-top: 50px;
+    }
+
+    p {
+      color: #175b9b;
+      font-size: 18px;
+      text-align: justify;
+      margin-left: 0px;
+    }
+
+    h2 {
+      color: #175b9b;
+      font-size: 24px;
+      margin-left: 0px;
+    }
+  }
+  h2 {
+    margin-left: -130px;
+    font-weight: bold;
+    font-size: 32px;
+    margin-top: 15px;
+  }
+  p {
+    margin-top: 30px;
+  }
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+}
+
+//wishlist
+.section-wishlist {
+  min-height: 100vh;
+  h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+
+  .text-collection {
+    font-weight: bold;
+  }
+
+  .breadcrumb {
+    padding-top: 20px;
+  }
+
+  .breadcrumb-item {
+    &.active {
+      font-weight: bold;
+      color: #3185d6;
+    }
+  }
+  .card-wishlist {
+    width: 350px;
+    height: 300px;
+    background-color: #fff;
+    padding-top: 0px;
+
+    box-shadow: 0px 7px 22px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+    margin-top: 25px;
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      color: #3185d6;
+      padding-top: 10px;
+      vertical-align: middle;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
+    .card-text {
+      font-size: 16px;
+      color: #3185d6;
+      padding-top: 8px;
+
+      .bold-text {
+        font-weight: bold;
+      }
+    }
+
+    .card-img-contact {
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 35px auto 0; /* Atas: 35px, bawah: 0 (tidak ada margin), kiri/kanan: auto (untuk memusatkan) */
+      display: block; /* Memastikan gambar berada di tengah */
+      width: 189px;
+      height: 171px;
+    }
+  }
+
+  .card-savelist {
+    width: 1086px;
+    height: 350px;
+    background-color: #fff;
+    padding-top: 0px;
+    box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.25);
+    font-family: "Lato", sans-serif;
+    overflow: hidden;
+    margin-top: 25px;
+
+    .bookmark {
+      margin-right: 10px;
+    }
+    .img-save {
+      width: 411px;
+      height: 280px;
+      border-radius: 4px;
+      max-width: calc(100% - 42px); /* 21px (kiri) + 21px (kanan) */
+      margin: 34px 0 36px 28px; /* Atas, Kanan, Bawah, Kiri */
+    }
+
+    .card-body {
+      margin-top: 20px;
+      h5 {
+        color: #3185d6;
+        font-weight: bold;
+        font-size: 24px;
+      }
+      p {
+        color: #3185d6;
+        font-size: 18px;
+        font-weight: 500;
+      }
+
+      .location-container {
+        display: flex;
+        align-items: center;
+      }
+      .location-order {
+        margin-right: 10px;
+      }
+      .location-image {
+        max-width: 100%; /* Membuat gambar responsif */
+        height: auto;
+        margin-right: 10px;
+      }
+    }
+  }
+}
